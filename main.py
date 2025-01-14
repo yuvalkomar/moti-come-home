@@ -29,4 +29,4 @@ def send_message():
     return jsonify({"response": response_message}), 200
 
 if __name__ == "__main__":
-    main.run(debug=True)
+    main.run(host='0.0.0.0', port=80)
